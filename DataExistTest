@@ -1,0 +1,33 @@
+def multiSeriesV2(varList,myKey):
+    base_url = 'https://api.bls.gov/publicAPI/v2/timeseries/data/'  #this will not change
+    headers = {'Content-type': 'application/json'}  #This will not changed !
+
+    parameters = {
+        "seriesid":varList,
+        "startyear":"2017", 
+        "endyear":"2022",
+        "catalog":True, 
+        "calculations":False, 
+        "annualaverage":False,
+        "aspects":False,
+        "registrationkey": myKey 
+     }
+
+    data = json.dumps(parameters) #this converts the Python dictionary into a JSON format
+    
+    p = requests.post(base_url, data=data, headers=headers)
+    json_data = json.loads(p.text)
+    
+    n = len(varList) #number of series requested
+    
+    for i in range(n):
+        if json_data['Results']['series'][i]['data'] == []:
+            print('Series ',varList[i],' does not exist')
+        else:
+            print('Series ',varList[i],' exists')
+    
+    return json_data
+    
+basket1 = ['', '','','','','','','']
+basket2 = ['', '','','','','','','']
+basket3 = ['', '','','','','','','']
