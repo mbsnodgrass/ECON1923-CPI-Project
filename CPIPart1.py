@@ -1,6 +1,6 @@
 8 Items Each for 3 Locations
 
-.2(*CollegeTextbooks*) + .05(*BedroomFurniture*) + .2(*CollegeTuition*) + .2(*Computers*) + .05(*Gas*) + .15(*Rent*) + .05(*Coffee*) + .1*Laundry Services*
+.2(*CollegeTextbooks*) + .05(*BedroomFurniture*) + .2(*CollegeTuition*) + .2(*Computers*) + .05(*Gas*) + .15(*Rent*) + .05(*Coffee*) + .1(*Laundry Services*)
 
 Pittsburgh
 * College Textbooks: CUURA104SSEA011
