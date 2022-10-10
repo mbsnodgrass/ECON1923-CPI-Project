@@ -1,6 +1,6 @@
 8 Items Each for 3 Locations
 
-*CollegeTextbooks* + *BedroomFurniture* + *CollegeTuition* + *Computers* + *Gas* + *Rent* + *Coffee* + *Laundry Services*
+.2(*CollegeTextbooks*) + .05(*BedroomFurniture*) + .2(*CollegeTuition*) + .2(*Computers*) + .05(*Gas*) + .15(*Rent*) + .05(*Coffee*) + .1*Laundry Services*
 
 Pittsburgh
 * College Textbooks: CUURA104SSEA011
@@ -31,3 +31,5 @@ Baltimore/Washington
 * Rent of Shelter: CUURA311SAS2RS
 * Coffee: CUURA311SEFP01
 * Laundry Services: CUURA311SEGD03
+
+Since each are the same size class according to the BLS, each of their weights are 1/3. 
