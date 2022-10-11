@@ -28,6 +28,5 @@ def multiSeriesV2(varList,myKey):
     
     return json_data
     
-basket1 = ['', '','','','','','','']
-basket2 = ['', '','','','','','','']
-basket3 = ['', '','','','','','','']
+basket = ['', '','','','','','','']
+
