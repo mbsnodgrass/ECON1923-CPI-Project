@@ -28,5 +28,8 @@ def multiSeriesV2(varList,myKey):
     
     return json_data
     
-basket = ['', '','','','','','','']
+basket1 = ['CUUR0110SAF1','CUUR0110SS47014','CUUR0110SAH','CUUR0110SAA','CUUR0120SAF1',
+           'CUUR0120SS47014','CUUR0120SAF114','CUUR0120SEFV','CUUR0350SAF1','CUUR0350SS47014','CUUR0350SEHF','CUUR0350SAR']
+           
+  r5 = multiSeriesV2(basket1,key)
 
