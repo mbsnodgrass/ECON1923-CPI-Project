@@ -1,0 +1,5 @@
+cpitable['Aggregate CPI'] = .432*cpitable['CUUR0110SAF1'] + .317*cpitable['CUUR0110SS47014'] + .015*cpitable['CUUR0110SAH'] +.01*cpitable['CUUR0110SAA'] + .022*cpitable['CUUR0120SAF114'] + .066*cpitable['CUUR0120SEFV'] + .092*cpitable['CUUR0350SEHF'] + .046*cpitable['CUUR0350SAR']
+
+pd.set_option("display.max_rows", None, "display.max_columns", None)  #optional code, only if you want to see whole table
+
+cpitable
