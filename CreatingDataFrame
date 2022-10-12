@@ -1,3 +1,16 @@
+#All of the packages you will need, make sure to get your BLS key and enshroud it in another file
+
+import requests
+import pandas as pd
+import json
+import os
+os.environ
+!dir *.py
+%run APIkeys.py
+key = os.environ.get('BLS_API_key')
+
+
+
 def multiSeriesV4(varList,myKey):
     # Input: varList = a list of strings containing the series names
     # Input: myKey =  a string containing your BLS API key
