@@ -42,7 +42,8 @@ def multiSeriesV4(varList,myKey):
     return new_df
     
     
-    
+    basket1 = ['CUUR0000SA0','CUUR0110SAF1','CUUR0110SS47014','CUUR0110SAH','CUUR0110SAA','CUUR0120SAF1',
+           'CUUR0120SS47014','CUUR0120SAF114','CUUR0120SEFV','CUUR0350SAF1','CUUR0350SS47014','CUUR0350SEHF','CUUR0350SAR']
     
     cpitable = multiSeriesV4(basket1,key)
     
